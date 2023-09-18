@@ -10,13 +10,13 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit some common Omni stuff.
-$(call inherit-product, vendor/omni/config/common.mk)
+$(call inherit-product, vendor/twrp/config/common.mk)
 
 # Inherit from mcaymanlm device
 $(call inherit-product, device/lge/mcaymanlm/device.mk)
 
 PRODUCT_DEVICE := mcaymanlm
-PRODUCT_NAME := omni_mcaymanlm
+PRODUCT_NAME := twrp_mcaymanlm
 PRODUCT_BRAND := lge
 PRODUCT_MODEL := LM-G900TM
 PRODUCT_MANUFACTURER := lge
