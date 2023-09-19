@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/twrp_mcaymanlm.mk
+    $(LOCAL_DIR)/omni_mcaymanlm.mk
 
 COMMON_LUNCH_CHOICES := \
-    twrp_mcaymanlm-user \
-    twrp_mcaymanlm-userdebug \
-    twrp_mcaymanlm-eng
+    omni_mcaymanlm-user \
+    omni_mcaymanlm-userdebug \
+    omni_mcaymanlm-eng
